@@ -1,5 +1,6 @@
 <?php
-$n = 12;
+
+$n = $_GET['n'];
 $one = 0;
 $two = 1;
 $answer = 0;
@@ -16,4 +17,5 @@ for ($i = 0; $i < $n+1; $i++) {
 	}
 	
 }
-echo $answer;
+echo '<p>F<sub>' . $n . '</sub> = ' . $answer . '</p>';
+?>
